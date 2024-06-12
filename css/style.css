@@ -17,9 +17,15 @@ body {
         line-height: 1.3;
         text-align: center ;
         color: darkred;
+        font-weight: bold;
+        border-radius: 34px
     }
  h2 {
         text-align: center ;
         background-color: antiquewhite;
+        font-weight: bold; 
     }
- 
+ ol {
+        
+        justify-content: space-between;
+    }
