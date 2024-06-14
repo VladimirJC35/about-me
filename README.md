@@ -8,3 +8,6 @@
 * Juego de adivinanzas
 * Resultado de preguntas correctas
 * Presentación inicial de  página web personal
+
+Navigetor: Vladimir
+Drive: Veronica
