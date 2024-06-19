@@ -7,13 +7,10 @@ const respuesta5 = "No";
 const numeroMaxIntentos = 4;
 const numeroAAdivinar = 43;
 let contadorDeIntentos = 1;
-const colorfavorito = ["Azul Marino", "Verde", "Turquesa"];
+const colorfavorito = ["Azul Marino", "Verde", "Turquesa","Morado"];
 const numMaxIntento = 6;
 let contarIntento= 1;
-//const pregunta1 = "No";
-//const pregunta2 = "Si";
-//const pregunta3 = "Si";
-//const pregunta4 = "N0";
+
 let contadorbien = 0;
 let contadormal = 0;
 puntos = 0;
@@ -52,7 +49,7 @@ if (respuesta5.toLowerCase() === pregunta5.toLowerCase()) {
 alert (usuario+"  En esta primera parte, Ud. tiene:  "+ puntos+"  Repuestas correctas");
 
 while (contadorDeIntentos <= numeroMaxIntentos) {
-    const numeroPorUsuario = Number(prompt("¿Cual es mi edad?, ingresa Números"));
+    const numeroPorUsuario = Number(prompt("¿Cual es mi edad?, ingresa Números, tienes "+numeroMaxIntentos+" intentos"));
 
     if (numeroPorUsuario === numeroAAdivinar) {
         alert("Felicidades!!! adivinaste mi edad " + numeroAAdivinar)
@@ -66,7 +63,7 @@ while (contadorDeIntentos <= numeroMaxIntentos) {
     }
     contadorDeIntentos++;
     if (contadorDeIntentos === numeroMaxIntentos + 1) {
-        alert("Llegaste al número max de intentos :(");
+        alert("Llegaste al número max de intentos :(, Mi edad es: "+numeroAAdivinar);
     }
 }
 
@@ -87,7 +84,7 @@ for(let i=1; i<=numMaxIntento;i++) {
      if( i<numMaxIntento ){
         coloringresado = prompt("No acertaste..! Sigue intentando te quedan " + (numMaxIntento -1) + " intentos");
      }else if (i==numMaxIntento){
-       alert ("Éxitos en tu opróximo intento ...!");
+       alert ("Mis colores Favoritos son: "+ colorfavorito +" Éxitos en tu opróximo intento ...!");
      }
 
  }

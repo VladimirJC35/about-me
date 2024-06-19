@@ -8,3 +8,4 @@
 * Juego de adivinanzas
 * Resultado de preguntas correctas
 * Presentación inicial de  página web personal
+* Evaluación final de accesibilidad es 91%
